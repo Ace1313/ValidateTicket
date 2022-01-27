@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "password": "$2b$10$kpSeKQB35cN1c.QjO9bUwOCr.qAv9djB6XoHpoj3aELvSaw0OICPS",
+      "username": "ace"
+    }
+  ],
+  "orders": [
+    {
+      "eventId": "1",
+      "ticketNumber": "Ma_thzSWCscwuMjg0bGUC",
+      "validated": true
+    },
+    {
+      "eventId": "1",
+      "ticketNumber": "egr9gM8WFJK_vbLCsletq",
+      "validated": true
+    },
+    {
+      "eventId": "1",
+      "ticketNumber": "4TaEYDVQbX8IE8oLWJr2A",
+      "validated": false
+    },
+    {
+      "eventId": "1",
+      "ticketNumber": "mQqcuh0s0htkqx9Sfk_7E",
+      "validated": false
+    }
+  ]
+}

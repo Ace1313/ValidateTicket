@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: #f39440;
+   height: 100vh;
+   display: grid;
+   max-width: 100%;
+   font-family: 'Fira Sans', sans-serif;
+}
+
+#ticket {
+   text-align: center;
+   height: 110px;
+   background-color: #f39440;
+   border: 2px solid #231f42;
+   padding: 2rem;
+   font-size: 35px;
+   letter-spacing: 8px;
+   width: 30%;
+   margin: auto;
+   margin-top: 16rem;
+}
+
+::placeholder {
+   color: #090911;
+   font-weight: 700;
+   font-size: 35px;
+   font-family: 'Fira Sans', sans-serif;
+}
+
+img {
+   margin: auto;
+   padding-top: 3rem;
+   margin-top: 1rem;
+}
+
+.staff {
+   text-align: center;
+   font-weight: lighter;
+}
+
+.text {
+   text-align: center;
+}
+
+button {
+   height: 82px;
+   background-color: #231f42;
+   color: #ffff;
+   font-size: 38px;
+   width: 30%;
+   border: none;
+   margin: auto;
+   font-weight: bolder;
+   margin-bottom: 15rem;
+   font-family: 'Fira Sans', sans-serif;
+   letter-spacing: 2px;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+#message {
+   font-size: 35px;
+   color: red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bolder;
+}
+
+#success {
+   font-size: 35px;
+   color: green;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bolder;
+}
